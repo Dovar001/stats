@@ -1,4 +1,10 @@
+
 github.com/Dovar001/bank v0.0.0-20210331160502-5af5823cec7b h1:ZkANAiDLWytb1F+XbDQR/XljJMe8fd4uKvI/FNt2Vzg=
 github.com/Dovar001/bank v0.0.0-20210331160502-5af5823cec7b/go.mod h1:N2xELwOCJg7QyY0bCkM+AN0cYc9/sopRm8CJNA90dmw=
 github.com/Dovar001/bank v1.0.0 h1:+XMeOD7/TgGrG8jnOvLRZ7W8Ix5p2YNnKVVyy9ioMwA=
 github.com/Dovar001/bank v1.0.0/go.mod h1:N2xELwOCJg7QyY0bCkM+AN0cYc9/sopRm8CJNA90dmw=
+
+github.com/Dovar001/bank/v2 v2.0.0-20210401152252-184de87aaef6 h1:FW/Ph610FyO+PuGkNMXwy3lgg8KVd405nPJ4iruL084=
+github.com/Dovar001/bank/v2 v2.0.0-20210401152252-184de87aaef6/go.mod h1:F+oX+x013rDKMqNGSQBjFE0jhA8onVR8o2gJiffI+aE=
+github.com/Dovar001/bank/v2 v2.0.0 h1:bsXWbl1Vpt9VCb6+WrTkeDR/c9cJh8X7YH1wacpmCsw=
+github.com/Dovar001/bank/v2 v2.0.0/go.mod h1:F+oX+x013rDKMqNGSQBjFE0jhA8onVR8o2gJiffI+aE=

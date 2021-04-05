@@ -1,7 +1,7 @@
 package stats
 
 import (
-	"github.com/Dovar001/bank/pkg/types"
+	"github.com/Dovar001/bank/v2/pkg/types"
 	"fmt"
 
 	
@@ -15,17 +15,20 @@ func ExampleAvg() {
 		ID: 4444,
 		Amount: 10_000,
 		Category: "Машина",
+		Status: "FAIL",
 		},
 		{
 		ID: 3333,
-		Amount: 30_000,
+		Amount: 100_000,
 		Category: "Ресторан",
+		Status: "OK",
 		},
 		
 		{
 		ID: 1111,
 		Amount: 30_000,
 		Category: "Магазин",
+		Status: "OK",
 		},
 		
 	}
@@ -33,7 +36,7 @@ func ExampleAvg() {
 	 mid := Avg(cards)
 	 fmt.Println(mid)
 
-	//Output:23333
+	//Output:65000
 
 	
 }
@@ -46,6 +49,7 @@ func ExampleTotalInCategory() {
 		ID: 4444,
 		Amount: 10_000,
 		Category: "Машина",
+		Status: "FAIL",
 		},
 		{
 		ID: 3333,
@@ -71,12 +75,12 @@ func ExampleTotalInCategory() {
 		
 	};
 	var cat types.Category
-	cat = "Магазин"
+	cat = "Машина"
 
 	 mid := TotalInCategory(cards,cat)
 	 fmt.Println(mid)
 
-	//Output:30000
+	//Output:50000
 	
 
 	
