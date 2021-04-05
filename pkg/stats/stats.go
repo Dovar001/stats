@@ -54,5 +54,4 @@ func CategoriesAvg(payments []types.Payment) map[types.Category]types.Money {
 		
 	}
 	return result
-
 }
